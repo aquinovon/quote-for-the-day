@@ -1,0 +1,19 @@
+body {
+  font-family: "Shippori Mincho B1", serif;
+  background-image: url("../images/image4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+p {
+  font-size: 25px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+  
+  <title>Zen Quotes</title>
+</head>
+<body>
+
+  <% if (content) { %>
+
+  <div class="quote-container">
+    <h1>"<%= content.q %>"</h1>
+    <p><%= content.a %></p>
+  </div>
+
+  <% } %>
+
+  <script src="javascript/client.js" charset="UTF-8"></script>
+
+</body>
+</html>
